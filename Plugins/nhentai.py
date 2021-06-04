@@ -11,7 +11,7 @@ class Nhentai():
             await bot.send_message(
                 event.chat_id,
                 'Command must be used like this\n/nh <hentai code\nexample: /nh 339989',
-                file='https://media1.tenor.com/images/eaac56a1d02536ed416b5a080fdf73ba/tenor.gif?itemid=15075442'
+                file='https://tenor.com/view/fujiwara-chika-chika-kaguya-fujiwara-cute-gif-13308132'
             )
         elif '/nh' in event.raw_text:
             text = event.raw_text.split()
