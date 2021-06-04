@@ -1,23 +1,33 @@
 {
-  "name": "",
-  "description": "",
-  "keywords": [],
-  "repository": "",
-  "env": {
-    "BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
-      "value": ""
+    "name": "HerokuAnimeDLBot",
+    "description": "A Telegram Bot to get All Anime Download links (Dubbed and Subbed)",
+    "logo": "https://telegra.ph/file/6481e6c7f9946e2ba9d15.jpg",
+      "keywords": [
+      "telethon",
+      "pyrogram",
+      "anime",
+      "watch",
+      "Anime Download"
+    ],
+    "repository": "",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "bot token Here",
+        "value": ""
+      },
+      "APP_ID": {
+        "description": "Api Id Here",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "api hash Here",
+        "value": ""
+      }
     },
-    "APP_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    }
-  }
-}
+    "addons": [{
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
       }
     }],
     "buildpacks": [{
