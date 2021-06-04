@@ -1,8 +1,7 @@
 ## Heroku-Manga-DL-Bot
 
-### Telegram Group
+### Telegram channel
 <p align="left"><a href="https://t.me/Animemusicarchive6"> <img src="https://i.imgur.com/aokorKE.png" /> </a></p>
-### Bot And Channel
 
 * Bot Link:
 
