@@ -9,7 +9,7 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://tenor.com/view/chika-fujiwara-kaguya-sama-love-is-war-anime-wink-smile-gif-18043249'
+            file='https://tenor.com/view/miko-iino-whisper-to-chika-fujiwara-chika-iino-chika-fujiwara-miko-iino-gif-21696984'
         )
 
     @bot.on(events.NewMessage(pattern="/help"))
@@ -23,6 +23,6 @@ class start():
     async def event_handler_source(event):
         await bot.send_message(
             event.chat_id,
-            '[Source Code On Github](https://github.com/MiyukiKun/Anime_Gallery_Bot)\nThis bot was hosted on Heroku'
+            '[Channel](https://t.me/Animemusicarchive6)\nThis bot was hosted on Heroku'
         )
     
