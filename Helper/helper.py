@@ -1,14 +1,19 @@
-start_text = '''This bot is for downloading any Manga direclty via links in multiple quality
+start_text = '''Welcome to Manga DL Bot. Here you can Download all Mangas for Free.
+
+You can Also download Anime for free at @tganimesterambot.
+
+Please read the Instructions carefully before surfing in...
                 
 Use /help to know commands and how to use this bot'''
 
 help_text = '''List of commands:
+
 /manga <name of Manga you want> : to download any Manga by search
 
-/nh : <name of Adult Manga you want>
+/nh : </nh <hentai code>
 
 /read : <name of Manga you want to read>
                                
-The links provided are in multiple qualities to download just open links in chrome and download starts automatically
+The files provided are in multiple qualities to download just open filein chrome
                                
 To report any Problems, Bugs, Suggestions go to @Animemusicarchive6'''
