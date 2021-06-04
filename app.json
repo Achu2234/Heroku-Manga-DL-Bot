@@ -11,11 +11,11 @@
     "repository": "",
     "env": {
       "api_id": {
-        "description": "Api Hash Here",
+        "description": "Api id Here",
         "value": ""
       },
       "api_hash": {
-        "description": "Api Id Here",
+        "description": "Api hash Here",
         "value": ""
       },
       "bot_token": {
