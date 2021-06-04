@@ -6,7 +6,7 @@
 
 * Bot Link:
 
-<a href="test"> <img src="https://i.imgur.com/lmw1PlT.png" /></a>
+<a href="https://t.me/mangdl_Robot"> <img src="https://i.imgur.com/lmw1PlT.png" /></a>
 
 
 Credits - <a href="https://t.me/Yeageristbotsdev" rel="nofollow">DEVLOPER</a>
