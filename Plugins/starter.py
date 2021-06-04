@@ -9,7 +9,7 @@ class start():
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://tenor.com/view/miko-iino-whisper-to-chika-fujiwara-chika-iino-chika-fujiwara-miko-iino-gif-21696984'
+            file='https://telegra.ph/file/92cf02b20ff395bd5e9e0.jpg'
         )
 
     @bot.on(events.NewMessage(pattern="/help"))
