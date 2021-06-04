@@ -1,0 +1,36 @@
+{
+    "name": "HerokuMangaDLBot",
+    "description": "A Telegram Bot to get All Manga Download links ",
+    "logo": "https://telegra.ph/file/6481e6c7f9946e2ba9d15.jpg",
+      "keywords": [
+      "telethon",
+      "Manga",
+      "read",
+      "Manga Download"
+    ],
+    "repository": "",
+    "env": {
+      "api_id": {
+        "description": "Api Hash Here",
+        "value": ""
+      },
+      "api_hash": {
+        "description": "Api Id Here",
+        "value": ""
+      },
+      "bot_token": {
+        "description": "Bot Token Here",
+        "value": ""
+      }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }],
+    "buildpacks": [{
+      "url": "heroku/python"
+    }]
+  }
+  
