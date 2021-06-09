@@ -56,4 +56,4 @@ def manga_chapter_html(name, list_of_links):
     </div>
         '''
     with open(f"{name}.html", "w") as f:
-        f.write(x)
+        f.write(x) 
