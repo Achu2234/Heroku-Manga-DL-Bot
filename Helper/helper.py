@@ -4,8 +4,6 @@ You can Also download Anime for free at @tganimesterambot.
 
 Please read the Instructions carefully before surfing in...
 
-Thanks to @President_Shirogane
-
 Use /help to know commands and how to use this bot'''
 
 help_text = '''List of commands:
