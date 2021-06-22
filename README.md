@@ -20,8 +20,30 @@
 </details>
 
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_ID` You Can Get it from [here](https://my.telegram.org/) .
+
+`API_HASH` You Can Get it form [here](https://my.telegram.org/) .
+
+`BOT_TOKEN` Search [@BotFather](https://t.me/botfather) in telegram.
+
+## Deployment 
+
+### Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/Heroku-Manga-DL-Bot)
+
 
 Can be found in telegram as [𝓜𝓪𝓷𝓰𝓪 𝓓𝓛 𝓑𝓸𝓽](https://t.me/mangdl_Robot)!
 
 
-<b>Contributions of all sizes are welcome :)</b>
+
+## Creator
+
+- [Achu biju](https://github.com/Achu2234/Heroku-Manga-DL-Bot)Dev
+- Special thanks to [BaraniARR](https://github.com/BaraniARR/gogoanimeapi) for the base of unofficial gogoanime api
+- Special thanks to [MiyukiKun](https://github.com/MiyukiKun?tab=repositories) for the base of unofficial Kissmanga and nhentai api
+
