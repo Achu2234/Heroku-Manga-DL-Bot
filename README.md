@@ -44,6 +44,7 @@ Can be found in telegram as [𝓜𝓪𝓷𝓰𝓪 𝓓𝓛 𝓑𝓸𝓽](https:/
 ## Creator
 
 - [Achu biju](https://github.com/Achu2234/Heroku-Manga-DL-Bot)Dev
+- [MiyukiKun](https://github.com/MiyukiKun?tab=repositories) Dev
 - Special thanks to [BaraniARR](https://github.com/BaraniARR/gogoanimeapi) for the base of unofficial gogoanime api
-- Special thanks to [MiyukiKun](https://github.com/MiyukiKun?tab=repositories) for the base of unofficial Kissmanga and nhentai api
+
 
