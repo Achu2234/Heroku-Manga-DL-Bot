@@ -12,7 +12,7 @@ class Manga():
             await bot.send_message(
                 event.chat_id,
                 '𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝗆𝗎𝗌𝗍 𝖻𝖾 𝗎𝗌𝖾𝖽 𝗅𝗂𝗄𝖾 𝗍𝗁𝗂𝗌\n/manga <name of manga>\nexample: /manga One Piece',
-                file=' https://telegra.ph/file/71c13209be39748484f6e.jpg'
+                file='https://telegra.ph/file/71c13209be39748484f6e.jpg'
             )
 
         elif '/manga' in event.raw_text:
@@ -24,7 +24,7 @@ class Manga():
                 await bot.send_message(
                     event.chat_id,
                     '𝙼𝚊𝚗𝚐𝚊 𝙽𝚘𝚝 𝙵𝚘𝚞𝚗𝚍..... Cʜᴇᴄᴋ ғᴏʀ Tʏᴘᴏs ᴏʀ sᴇᴀʀᴄʜ Jᴀᴘᴀɴᴇsᴇ ɴᴀᴍᴇ',
-                    file=' https://telegra.ph/file/3afe416c168405c1a3b1a.jpg'
+                    file='https://telegra.ph/file/3afe416c168405c1a3b1a.jpg'
                 )
             else:
                 try:
