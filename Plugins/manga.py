@@ -12,7 +12,7 @@ class Manga():
             await bot.send_message(
                 event.chat_id,
                 '𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝗆𝗎𝗌𝗍 𝖻𝖾 𝗎𝗌𝖾𝖽 𝗅𝗂𝗄𝖾 𝗍𝗁𝗂𝗌\n/manga <name of manga>\nexample: /manga One Piece',
-                file='https://telegra.ph/file/71c13209be39748484f6e.jpg'
+                file='https://telegra.ph/file/7290593555f7a6e14cd95.mp4'
             )
 
         elif '/manga' in event.raw_text:
@@ -24,7 +24,7 @@ class Manga():
                 await bot.send_message(
                     event.chat_id,
                     '𝙼𝚊𝚗𝚐𝚊 𝙽𝚘𝚝 𝙵𝚘𝚞𝚗𝚍..... Cʜᴇᴄᴋ ғᴏʀ Tʏᴘᴏs ᴏʀ sᴇᴀʀᴄʜ Jᴀᴘᴀɴᴇsᴇ ɴᴀᴍᴇ',
-                    file='https://telegra.ph/file/3afe416c168405c1a3b1a.jpg'
+                    file='https://telegra.ph/file/0cd275ddfebd44c4c6bd0.mp4'
                 )
             else:
                 try:
@@ -50,7 +50,7 @@ class Manga():
             split_data = anime_name.split(":")
             chap = kiss.get_manga_chapter(split_data[0], split_data[1])
             if chap == "Invalid Mangaid or chapter number":
-                await event.reply("Something went wrong.....\nCheck if you entered command properly\nCommon mistakes:\nYou didnt mention chapter number\nyou added space after : , dont leave space\n\n\@Yeageristbots if you have any further doubts")
+                await event.reply("Something went wrong.....\nCheck if you entered command properly\nCommon mistakes:\nYou didnt mention chapter number\nyou added space after : , dont leave space\n\n\@SafoTheBot if you have any further doubts")
                 return
             format.manga_chapter_html(f"{split_data[0]}{split_data[1]}", chap)
             await bot.send_message(
@@ -60,7 +60,7 @@ class Manga():
             )
 
         except Exception as e:
-            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@Yeageristbots if you have any doubts")
+            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@SafoTheBot if you have any doubts")
             print(e)
 
     @bot.on(events.CallbackQuery(pattern="mid:"))
