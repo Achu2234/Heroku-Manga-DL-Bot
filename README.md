@@ -36,11 +36,6 @@ To run this project, you will need to add the following environment variables to
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/Heroku-Manga-DL-Bot)
 
-
-Can be found in telegram as [𝓜𝓪𝓷𝓰𝓪 𝓓𝓛 𝓑𝓸𝓽](https://t.me/mangdl_Robot)!
-
-
-
 ## Creator
 
 - [Achu biju](https://github.com/Achu2234/Heroku-Manga-DL-Bot)Dev
