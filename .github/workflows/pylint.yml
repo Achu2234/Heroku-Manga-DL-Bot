@@ -33,5 +33,5 @@ jobs:
           commit_user_email: 77989182+Achu2234@users.noreply.github.com
           commit_options: '--no-verify'
           commit_message: 'pyLint: auto fixes'
-          commit_author: Achu2234 <77989182+AsmSafone@users.noreply.github.com>
+          commit_author: Achu2234 <77989182+Achu2234@users.noreply.github.com>
 
