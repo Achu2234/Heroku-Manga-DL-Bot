@@ -1,13 +1,13 @@
-from Plugins.starter import start
+from config import bot
 from Plugins.manga import Manga
 from Plugins.nhentai import Nhentai
-from config import bot
+from Plugins.starter import start
 
 try:
     start()
     Manga()
     Nhentai()
-    
+
 except Exception as e:
     print(e)
 
