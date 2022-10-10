@@ -25,7 +25,7 @@ class kissmangaapi:
                 mangaid = split2[0]
                 result = (manganame, mangaid)
                 res_search_list.append(result)
-            if res_search_list == []:
+            if not res_search_list:
                 return "Nothing Found"
             return res_search_list
         except requests.exceptions.ConnectionError:

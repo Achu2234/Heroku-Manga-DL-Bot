@@ -23,4 +23,5 @@ class nhentaiapi:
             pagenum = ".".join(temp)
             img_link_skeleton[-1] = pagenum
             list_of_pages.append("/".join(img_link_skeleton))
+
         return list_of_pages
