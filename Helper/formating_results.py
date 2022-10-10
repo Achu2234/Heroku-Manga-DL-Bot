@@ -4,6 +4,7 @@ def format_search_results(search_results):
     for titles in search_results:
         names.append(titles.get("name"))
         ids.append(titles.get("animeid"))
+
     return (names, ids)
 
 
@@ -18,6 +19,7 @@ def format_home_results(home_results):
         ids = animeidep[:-2]
         animeid.append("-".join(ids))
         epnum.append(animeidep[-1])
+
     return (names, animeid, epnum)
 
 
@@ -46,6 +48,7 @@ def batch_download_txt(name, list_of_links):
                     if y is None:
                         y = ""
         x = f"{x}{y}\n"
+
     with open(f"{name}.txt", "w") as f:
         f.write(f"{x}")
 

@@ -23,7 +23,7 @@ class gogoanime:
                 urll = anime.a["href"]
                 r = urll.split("/")
                 res_list_search.append({"name": f"{tit}", "animeid": f"{r[2]}"})
-            if res_list_search == []:
+            if not res_list_search:
                 return {
                     "status": "204",
                     "reason": "No search results found for the query",
@@ -146,7 +146,7 @@ class gogoanime:
                 tit = anime.a["title"]
                 urll = anime.a["href"]
                 res_list_search.append({"name": f"{tit}", "Id-Epnum": f"{urll[1:]}"})
-            if res_list_search == []:
+            if not res_list_search:
                 return {
                     "status": "204",
                     "reason": "I have No Idea what the fuck went wrong",
