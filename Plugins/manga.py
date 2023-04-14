@@ -6,7 +6,7 @@ from config import bot
 
 
 class Manga:
-    @bot.on(events.NewMessage(pattern=r"^/manga|^/manga@mangdl_Robot"))
+    @bot.on(events.NewMessage(pattern=r"^/manga|^/manga@MangaScrapper_Bot"))
     async def event_handler_manga(event):
         if "/manga" == event.raw_text:
             await bot.send_message(
