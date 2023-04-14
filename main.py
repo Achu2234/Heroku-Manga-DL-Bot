@@ -1,6 +1,5 @@
 from config import bot
 from Plugins.manga import Manga
-from Plugins.nhentai import Nhentai
 from Plugins.starter import start
 
 try:
