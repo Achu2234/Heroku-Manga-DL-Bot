@@ -1,4 +1,4 @@
-start_text = """Welcome to Manga DL Bot. Here you can Download all Mangas for Free.
+start_text = """Welcome to Manga Scrapper Bot. Here you can Download all Mangas for Free.
 
 Please read the Instructions carefully before surfing in...
 
