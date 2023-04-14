@@ -9,7 +9,6 @@ help_text = """List of commands:
 /manga <name of Manga you want> : to download any Manga by search
 
 /read : <name of Manga you want to read>
-/nh : </nh <hentai code>
 
 The files provided are in multiple qualities to download just open filein chrome
 
